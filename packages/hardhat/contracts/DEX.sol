@@ -143,7 +143,7 @@ contract DEX {
         );
         (bool sent, ) = msg.sender.call{value: ethOutput}("");
         require(sent, "Unable to transfer ETH to you");
-        emit EthToTokenSwap(
+        emit TokenToEthSwap(
             msg.sender,
             "Balloons -> ETH",
             ethOutput,

@@ -1,5 +1,13 @@
 # 🏗 scaffold-eth | 🏰 BuidlGuidl
 
+You can find a working demo of this project at: [https://speedrun-ijonas-dex.surge.sh/](https://speedrun-ijonas-dex.surge.sh/)
+
+You can find the verified contracts on Rinkeby using the links below:
+* [DEX](https://rinkeby.etherscan.io/address/0x2a6c0977311331da24d396dcd32371fde4f68f2f)
+* [Balloon](https://rinkeby.etherscan.io/address/0xB8373D1B780d4b7c2Ff69A86201F98cC5015A993)
+
+Finally the rest of my BuidlGuidl portfolio can be [found here](https://bazaar.buidlguidl.com/builders/0x57B6611dE36d8C093cA1c01E054dB301d8e092F5).
+
 ## 🚩 **Challenge 3: Minimum Viable Exchange**
 
 This challenge will help you build/understand a simple decentralized exchange, with one token-pair (ERC20 BALLOONS ($BAL) and ETH). This repo is an updated version of the [original tutorial](https://medium.com/@austin_48503/%EF%B8%8F-minimum-viable-exchange-d84f30bd0c90) and challenge repos before it. Please read the intro for a background on what we are building first!

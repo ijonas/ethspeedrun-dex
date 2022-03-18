@@ -1,4 +1,4 @@
-# 🏗 scaffold-eth | 🏰 BuidlGuidl
+# 🏗 ethspeedrun-dex | 🏰 BuidlGuidl
 
 You can find a working demo of this project at: [https://speedrun-ijonas-dex.surge.sh/](https://speedrun-ijonas-dex.surge.sh/)
 

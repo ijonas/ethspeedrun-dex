@@ -7,4 +7,19 @@ contract Balloons is ERC20 {
     constructor() ERC20("Balloons", "BAL") {
         _mint(msg.sender, 1000 ether); // mints 1000 balloons!
     }
+
+    event Approved(address spender, uint256 amount);
+
+    function approve(address spender, uint256 amount)
+        public
+        virtual
+        override
+        returns (bool)
+    {
+        bool approved = ERC20.approve(spender, amount);
+        if (approved) {
+            emit Approved(spender, amount);
+        }
+        return approved;
+    }
 }
